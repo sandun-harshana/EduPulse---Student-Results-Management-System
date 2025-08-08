@@ -1,5 +1,5 @@
 const sql = require("mysql2/promise");
-const dotenv = require("dotenv").config();
+require("dotenv").config();
 
 // Log environment variables to verify they're loaded correctly
 console.log({

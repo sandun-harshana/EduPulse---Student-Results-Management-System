@@ -21,7 +21,7 @@ function SelectUser() {
         >
           <h2 className="text-white text-2xl font-bold mb-4">Student</h2>
           <p className="text-white mb-6">
-            Register as a student to access our SRMS.
+            Register as a student to access our EduPulse platform.
           </p>
           <button className="bg-white text-blue-500 px-6 py-3 rounded-full font-bold hover:bg-blue-500 hover:text-white transition duration-300">
             Register Or Login Student

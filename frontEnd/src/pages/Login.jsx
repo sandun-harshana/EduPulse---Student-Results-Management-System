@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import axios from 'axios';
 import logo from '../assets/OIP.jpeg';
 import { useNavigate } from 'react-router-dom';
@@ -70,8 +70,8 @@ function Login() {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-50">
-      <div className="w-[400px] p-[10px] border border-[#ddd] rounded-[10px] shadow-[0_4px_8px_rgba(0,0,0,0.1)] bg-[#f9f9f9]">
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-[#f8fafc] via-[#e0e7ff] to-[#9c2b2b]">
+      <div className="w-[400px] p-[10px] border border-[#cacaca] rounded-[10px] shadow-[0_4px_8px_rgba(0,0,0,0.1)] bg-white bg-opacity-90">
         <div className="flex items-center justify-center mb-2">
           <img className="w-[50px] mr-[9px]" src={logo} alt="" />
           <h1 className="text-center text-[#333] text-xl font-semibold">Login</h1>
