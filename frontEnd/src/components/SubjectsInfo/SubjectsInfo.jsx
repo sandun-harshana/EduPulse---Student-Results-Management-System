@@ -4,7 +4,7 @@ const SubjectsInfo = () => {
   const [selectedYear, setSelectedYear] = useState("19/20");
   const [selectedSemester, setSelectedSemester] = useState("1.1");
   
-  const years = ["19/20", "20/21"];
+  const years = ["19/20", "20/21","21/22","22/23"];
   const semesters = ["1.1", "1.2", "2.1", "2.2", "3.1", "3.2"];
   
   // Sample subjects data - you can replace this with your actual data
